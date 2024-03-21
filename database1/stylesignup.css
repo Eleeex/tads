@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #da7f00;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-all{
+    display: flex;
+    background-color: rgba(211, 4, 4, 0.493);
+    border-radius: 40px;
+    width: 1100px;
+    height: 80vh;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.left-right-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box{
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.482);
+}
+
+.right-box{
+    width: 550px;;
+    background-color: white;
+}
+
+.left-upper-box{
+    align-items: flex-start;
+    width: 550px;
+    height: 50px;
+    background-color: #30140c;
+}
+
+.right-upper-box{
+    align-items: flex-start;
+    width: 550px;
+    height: 50px;
+    background-color: #30140c;
+}
+
+.logo{
+    border-radius: 500px;
+    margin-top: 15px;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+}
+
+.h1t{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:40px;
+    text-decoration: 5px underline overline;
+    text-align: center;
+}
+
+.h2t{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.title-box{
+    background-color: rgb(81, 81, 81);
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.492);
+}
+
+.signup-box{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.signup-title{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.inp-form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.inp-form input {
+    width: calc(50% - 0.5rem);
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 0.1rem;
+    transition: border-color 0.3s ease;
+}
+
+.inp-form input#age,
+.inp-form input#address,
+.inp-form input#username,
+.inp-form input#password {
+    width: calc(100% - 0.5rem);
+}
+
+.inp-form input#lastname {
+    margin-left: 0.5rem; 
+}
+
+.inp-form input:focus {
+    outline: none;
+    border-color: #50281A;
+}
+
+.signup-btn {
+    width: 50%;
+    background-color: #c85c14;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #d88414;
+}
+
+p .signin-btn{
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+
+/* .container {
+    display: flex;
+    justify-content: space-between;
+}
+.formation{
+    border: 3px solid black;
+    text-align: center;
+    width: 50%;
+    height: 710px;
+}
+.box{
+    border: 3px solid black;
+    width: 50%;
+    height: 710px;
+}
+
+.image{
+    height: 710px;
+    width: 100%;
+}
+
+.lastbox{
+    width: 5%;
+    background-color: #201c1c;
+}
+
+.firstbox{
+    width: 5%;
+    background-color: #201c1c;
+}
+ */
